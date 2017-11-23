@@ -8,6 +8,9 @@ suite('pronomen', function () {
     '  voss  ',
     'Åland',
     'Sortland',
+    'Aksnes',
+    'Nesttun',
+    'Cuba',
   ]
 
   var iTests = [
@@ -16,6 +19,25 @@ suite('pronomen', function () {
     'Parkveien',
     'New York',
     'Tyskland',
+    'Indonesia',
+    'Irland',
+    'Japan',
+    'Lofoten',
+    'Storbritannia',
+    'Andesfjellene',
+    'Asia',
+    'Bergen',
+    'Drøbak',
+    'Finnmark fylke',
+    'Hamar kommune',
+    'Nord-Norge',
+    'New York',
+    'Rondane',
+    'Setesdalen',
+    'Sør-Spania',
+    'Trøndelag',
+    'Tyskland',
+    'Vladivostok',
   ]
 
   paaTests.forEach(function (t) {
