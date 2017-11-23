@@ -1,7 +1,7 @@
 {
-  "name": "pronomen",
+  "name": "preposisjon",
   "version": "0.1.3",
-  "description": "Finn riktig pronomen",
+  "description": "Finn riktig preposisjon",
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint lib/",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/draperunner/pronomen"
+    "url": "https://github.com/draperunner/preposisjon"
   },
   "author": "Mats Byrkjeland <matsbyr@gmail.com>",
   "license": "MIT",

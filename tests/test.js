@@ -1,7 +1,7 @@
 var assert = require('assert')
-var pronomen = require('../lib/index')
+var preposisjon = require('../lib/index')
 
-suite('pronomen', function () {
+suite('preposisjon', function () {
   var paaTests = [
     'Voss',
     'voss',
@@ -42,13 +42,13 @@ suite('pronomen', function () {
 
   paaTests.forEach(function (t) {
     test('it should return "på" for "' + t + '"', function () {
-      assert.equal(pronomen(t), 'på')
+      assert.equal(preposisjon(t), 'på')
     })
   })
 
   iTests.forEach(function (t) {
     test('it should return "i" for "' + t + '"', function () {
-      assert.equal(pronomen(t), 'i')
+      assert.equal(preposisjon(t), 'i')
     })
   })
 })
