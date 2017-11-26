@@ -1,6 +1,6 @@
 {
   "name": "preposisjon",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Finn riktig preposisjon",
   "main": "./lib/index.js",
   "scripts": {
