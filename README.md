@@ -28,3 +28,12 @@ Funksjonen returnerer anten `'i'` eller `'på'`. `'på'` blir returnert dersom d
 
 ## Bidra
 Pull requests er meir enn velkomne! Berre hugs å køyre `npm test` først ;)
+
+## Typar
+
+Typar for både TypeScript og Flow er inkludert. TypeScript skal fungere ut av boksen. For Flow, pass på at libdef-fila er inkludert i din flowconfig:
+
+```
+[libs]
+node_modules/preposisjon/lib/types.flow.js
+```
