@@ -31,7 +31,11 @@ Funksjonen returnerer anten `'i'` eller `'på'`. `'på'` blir returnert dersom d
 Du kan også bruke `preposisjon` frå kommandolinja.
 
 ```
-$ npx preposisjon Voss
+npm i -g preposisjon
+```
+
+```
+> preposisjon Voss
 på
 ```
 
