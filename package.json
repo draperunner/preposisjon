@@ -7,6 +7,9 @@
     "lint": "eslint lib/ --ignore-pattern *.flow.js",
     "test": "npm run lint && mocha tests/test.js --ui tdd"
   },
+  "bin": {
+    "preposisjon": "lib/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/draperunner/preposisjon"

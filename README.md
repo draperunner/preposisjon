@@ -26,6 +26,15 @@ console.log(voss) // Eg er på Voss!
 
 Funksjonen returnerer anten `'i'` eller `'på'`. `'på'` blir returnert dersom det finst reglar som tilseier at `'på'` er riktig preposisjon. Viss ikkje det er tilfellet, vil `'i'` bli returnert.
 
+### CLI
+
+Du kan også bruke `preposisjon` frå kommandolinja.
+
+```
+$ npx preposisjon Voss
+på
+```
+
 ## Bidra
 Pull requests er meir enn velkomne! Berre hugs å køyre `npm test` først ;)
 
