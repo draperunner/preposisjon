@@ -26,6 +26,20 @@ console.log(voss) // Eg er på Voss!
 
 Funksjonen returnerer anten `'i'` eller `'på'`. `'på'` blir returnert dersom det finst reglar som tilseier at `'på'` er riktig preposisjon. Viss ikkje det er tilfellet, vil `'i'` bli returnert.
 
+### API
+
+Du kan bruke REST-APIet. Grunn-URL er `https://preposisjon.no/api`. Send stadsnamn som query-parameter `place`. Eksempel:
+
+```
+GET https://preposisjon.no/api?place=Voss
+```
+
+Gir svaret:
+
+```
+{ "preposisjon": "på" }
+```
+
 ### CLI
 
 Du kan også bruke `preposisjon` frå kommandolinja.

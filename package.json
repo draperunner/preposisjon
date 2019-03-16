@@ -4,7 +4,7 @@
   "description": "Finn riktig preposisjon",
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint lib/ --ignore-pattern *.flow.js",
+    "lint": "eslint lib/ api/ --ignore-pattern *.flow.js",
     "test": "npm run lint && mocha tests/test.js --ui tdd"
   },
   "bin": {
