@@ -20,6 +20,11 @@
   "author": "Mats Byrkjeland <matsbyr@gmail.com>",
   "license": "MIT",
   "types": "./lib/types.d.ts",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
@@ -27,6 +32,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.1",
     "mocha": "^7.0.1"
   }
 }
