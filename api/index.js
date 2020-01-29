@@ -1,4 +1,4 @@
-const { URL, } = require('url')
+const { URL } = require('url')
 const preposisjon = require('../lib')
 
 module.exports = (req, res) => {
