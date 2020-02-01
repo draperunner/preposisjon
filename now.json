@@ -1,5 +1,0 @@
-{
-    "name": "preposisjon",
-    "version": 2,
-    "builds": [{ "src": "api/index.js", "use": "@now/node" }]
-}

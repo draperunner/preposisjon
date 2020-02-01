@@ -5,7 +5,8 @@
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint lib/ api/ --ignore-pattern *.flow.js",
-    "test": "npm run lint && mocha tests/test.js --ui tdd"
+    "test": "npm run lint && mocha tests/test.js --ui tdd",
+    "now": "now"
   },
   "bin": {
     "preposisjon": "lib/cli.js"
@@ -33,6 +34,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.1",
-    "mocha": "^7.0.1"
+    "mocha": "^7.0.1",
+    "now": "^16.7.3"
   }
 }
