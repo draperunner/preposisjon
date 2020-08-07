@@ -28,13 +28,10 @@
   },
   "devDependencies": {
     "eslint": "^7.6.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "mocha": "^8.1.1",
-    "now": "^16.7.3"
+    "now": "^16.7.3",
+    "prettier": "^2.0.5"
   }
 }

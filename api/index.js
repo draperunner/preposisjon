@@ -8,7 +8,9 @@ module.exports = (req, res) => {
   const prep = preposisjon(place)
 
   res.setHeader('Content-Type', 'application/json')
-  res.end(JSON.stringify({
-    preposisjon: prep,
-  }))
+  res.end(
+    JSON.stringify({
+      preposisjon: prep,
+    }),
+  )
 }
