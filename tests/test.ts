@@ -1,8 +1,8 @@
-var assert = require('assert')
-var preposisjon = require('../lib/index')
+import assert from 'assert'
+import preposisjon from '../src/index'
 
 suite('preposisjon', function () {
-  var paaTests = [
+  const paaTests = [
     'Voss',
     'voss',
     '  voss  ',
@@ -296,7 +296,7 @@ suite('preposisjon', function () {
     'ås',
   ]
 
-  var iTests = [
+  const iTests = [
     'Oslo',
     'Drammen',
     'Parkveien',

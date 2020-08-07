@@ -4,15 +4,19 @@
   "description": "Finn riktig preposisjon",
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint lib/ api/ --ignore-pattern *.flow.js",
-    "test": "npm run lint && mocha tests/test.js --ui tdd",
+    "lint": "eslint src/ api/",
+    "test": "mocha -r ts-node/register tests/test.ts --ui tdd",
+    "build": "tsc",
+    "prepublish": "npm test && npm run build",
     "now": "now"
   },
   "bin": {
     "preposisjon": "lib/cli.js"
   },
   "files": [
-    "lib"
+    "lib",
+    "types.d.ts",
+    "types.flow.js"
   ],
   "repository": {
     "type": "git",
@@ -20,18 +24,24 @@
   },
   "author": "Mats Byrkjeland <matsbyr@gmail.com>",
   "license": "MIT",
-  "types": "./lib/types.d.ts",
+  "types": "./types.d.ts",
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm test && npm run lint"
     }
   },
   "devDependencies": {
+    "@types/mocha": "^8.0.1",
+    "@types/node": "^10.17.28",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
     "eslint": "^7.6.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "mocha": "^8.1.1",
-    "now": "^16.7.3",
-    "prettier": "^2.0.5"
+    "now": "^19.2.0",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   }
 }

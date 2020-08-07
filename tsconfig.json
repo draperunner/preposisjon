@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": ["es2018"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es2018",
+        "strict": true,
+        "outDir": "lib",
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*", "types.d.ts",
+    ],
+}

@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { URL } = require('url')
 const preposisjon = require('../lib')
 
