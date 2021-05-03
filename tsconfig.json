@@ -6,7 +6,8 @@
         "target": "es2018",
         "strict": true,
         "outDir": "lib",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "declaration": true
     },
     "include": [
         "src/**/*", "types.d.ts",

@@ -15,7 +15,6 @@
   },
   "files": [
     "lib",
-    "types.d.ts",
     "types.flow.js"
   ],
   "repository": {
@@ -24,7 +23,7 @@
   },
   "author": "Mats Byrkjeland <matsbyr@gmail.com>",
   "license": "MIT",
-  "types": "./types.d.ts",
+  "types": "./lib/index.d.ts",
   "husky": {
     "hooks": {
       "pre-commit": "npm test && npm run lint"
