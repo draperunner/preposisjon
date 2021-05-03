@@ -1,5 +1,5 @@
 import { arrayToObject } from './utils'
-import { Preposision } from './types'
+import { Preposition } from './types'
 
 const paaExceptions = [
   'agder',
@@ -270,8 +270,8 @@ const paaExceptions = [
 const iExceptions = ['brunlanes', 'kirkenes', 'måløy', 'onsøy', 'tønsberg']
 
 const exceptions = {
-  ...arrayToObject<string, Preposision.PÅ>(paaExceptions, Preposision.PÅ),
-  ...arrayToObject<string, Preposision.I>(iExceptions, Preposision.I),
+  ...arrayToObject<string, Preposition.PÅ>(paaExceptions, Preposition.PÅ),
+  ...arrayToObject<string, Preposition.I>(iExceptions, Preposition.I),
 }
 
 export default exceptions

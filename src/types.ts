@@ -1,4 +1,4 @@
-export enum Preposision {
+export enum Preposition {
   I = 'i',
   PÅ = 'på',
 }

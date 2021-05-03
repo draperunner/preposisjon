@@ -1,8 +1,8 @@
 import exceptions from './exceptions'
 import suffixRules from './suffix-rules'
-import { Preposision } from './types'
+import { Preposition } from './types'
 
-function preposisjon(place: string): Preposision {
+function preposisjon(place: string): Preposition {
   if (typeof place !== 'string') {
     throw new TypeError(
       'preposisjon expected its argument to be a string, but received ' +
@@ -25,7 +25,7 @@ function preposisjon(place: string): Preposision {
     return suffixRules[matchingSuffix]
   }
 
-  return Preposision.I
+  return Preposition.I
 }
 
 export default preposisjon
