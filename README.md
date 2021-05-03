@@ -10,7 +10,7 @@ npm install --save preposisjon
 Importer først.
 
 ```javascript
-var preposisjon = require('preposisjon')
+const preposisjon = require('preposisjon')
 ```
 eller
 ```javascript
@@ -20,7 +20,7 @@ import preposisjon from 'preposisjon'
 Kall funksjonen med stadsnamn for å få tilhøyrande preposisjon. Til dømes:
 
 ```javascript
-var voss = `Eg er ${preposisjon('Voss')} Voss!`
+const voss = `Eg er ${preposisjon('Voss')} Voss!`
 console.log(voss) // Eg er på Voss!
 ```
 
