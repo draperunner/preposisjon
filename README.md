@@ -31,7 +31,7 @@ Funksjonen returnerer anten `'i'` eller `'på'`. `'på'` blir returnert dersom d
 Du kan bruke REST-APIet. Grunn-URL er `https://preposisjon.no/api`. Send stadsnamn som query-parameter `place`. Eksempel:
 
 ```
-GET https://preposisjon.no/api?place=Voss
+curl https://preposisjon.no/api?place=Voss
 ```
 
 Gir svaret:
