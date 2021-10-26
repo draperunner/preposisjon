@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/draperunner/preposisjon"
+    "url": "https://github.com/draperunner/preposisjon.git"
   },
   "author": "Mats Byrkjeland <matsbyr@gmail.com>",
   "license": "MIT",
