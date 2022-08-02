@@ -116,7 +116,6 @@ const paaExceptions = [
   'lesja',
   'levanger',
   'lillehammer',
-  'lillestrøm',
   'lindås',
   'lisleby',
   'lista',
