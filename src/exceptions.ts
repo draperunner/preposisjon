@@ -121,6 +121,7 @@ const paaExceptions = [
   'lista',
   'lolland',
   'lunner',
+  'lyngør',
   'lørenskog',
   'madagaskar',
   'madeira',
@@ -266,7 +267,14 @@ const paaExceptions = [
   'ås',
 ]
 
-const iExceptions = ['brunlanes', 'kirkenes', 'måløy', 'onsøy', 'tønsberg']
+const iExceptions = [
+  'brunlanes',
+  'kirkenes',
+  'måløy',
+  'onsøy',
+  'sandnes',
+  'tønsberg',
+]
 
 const exceptions = {
   ...arrayToObject<string, Preposition.PÅ>(paaExceptions, Preposition.PÅ),
