@@ -363,6 +363,7 @@ suite('preposisjon', function () {
     'Tønsberg',
     'Vadsø',
     'Vardø',
+    'Vikøy',
     'Vågå',
     'Øystese',
   ]
