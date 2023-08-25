@@ -274,6 +274,7 @@ const iExceptions = [
   'onsøy',
   'sandnes',
   'tønsberg',
+  'vikøy',
 ]
 
 const exceptions = {
