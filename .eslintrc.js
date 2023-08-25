@@ -1,6 +1,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -12,7 +12,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'max-len': ['warn', 160],
     'no-underscore-dangle': 'off',
-    'prettier/prettier': 'error',
     'require-await': 'error',
   },
 }
