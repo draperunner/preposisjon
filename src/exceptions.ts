@@ -195,6 +195,7 @@ const paaExceptions = [
   'sjælland',
   'ski',
   'skjetten',
+  'slemdal',
   'slemmestad',
   'smøla',
   'snåsa',

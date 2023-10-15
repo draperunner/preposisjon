@@ -217,6 +217,7 @@ suite('preposisjon', function () {
     'skarnes',
     'ski',
     'skjetten',
+    'slemdal',
     'slemmestad',
     'smøla',
     'snåsa',
