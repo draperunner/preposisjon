@@ -1,7 +1,4 @@
-import { arrayToObject } from './utils'
-import { Preposition } from './types'
-
-const paaExceptions = [
+export const paaExceptions = new Set<string>([
   'agder',
   'akkerhaugen',
   'alstahaug',
@@ -265,9 +262,9 @@ const paaExceptions = [
   'åmot',
   'årdalstangen',
   'ås',
-]
+])
 
-const iExceptions = [
+export const iExceptions = new Set<string>([
   'brunlanes',
   'kirkenes',
   'måløy',
@@ -276,11 +273,4 @@ const iExceptions = [
   'tønsberg',
   'ulstein',
   'vikøy',
-]
-
-const exceptions = {
-  ...arrayToObject<string, Preposition.PÅ>(paaExceptions, Preposition.PÅ),
-  ...arrayToObject<string, Preposition.I>(iExceptions, Preposition.I),
-}
-
-export default exceptions
+])

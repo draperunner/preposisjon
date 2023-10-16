@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint src/ && prettier src --check",
     "test": "mocha -r ts-node/register tests/test.ts --ui tdd",
-    "build": "tsc",
+    "build": "rm -rf lib && tsc",
     "prepublish": "npm test && npm run build"
   },
   "bin": {

@@ -1,5 +1,5 @@
-import exceptions from './exceptions'
-import suffixRules from './suffix-rules'
+import { paaExceptions, iExceptions } from './exceptions'
+import { paaSuffixes } from './suffix-rules'
 import { Preposition } from './types'
 
 function preposisjon(place: string): Preposition {
@@ -13,20 +13,20 @@ function preposisjon(place: string): Preposition {
   const p = place.toLowerCase().trim()
 
   // Check exceptions
-  const exception = exceptions[p]
-  if (exception) {
-    return exception
+  if (paaExceptions.has(p)) {
+    return Preposition.PÅ
+  }
+
+  if (iExceptions.has(p)) {
+    return Preposition.I
   }
 
   // Check suffix rules
-  const suffixes = Object.keys(suffixRules)
-  const matchingSuffix = suffixes.find((suffix) => p.endsWith(suffix))
-  if (matchingSuffix) {
-    return suffixRules[matchingSuffix]
+  if (paaSuffixes.some((suffix) => p.endsWith(suffix))) {
+    return Preposition.PÅ
   }
 
   return Preposition.I
 }
 
 export default preposisjon
-module.exports = preposisjon

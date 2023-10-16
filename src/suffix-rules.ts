@@ -1,7 +1,4 @@
-import { arrayToObject } from './utils'
-import { Preposition } from './types'
-
-const paaSuffixes = [
+export const paaSuffixes = [
   'berg',
   'berget',
   'eggi',
@@ -45,5 +42,3 @@ const paaSuffixes = [
   'ås',
   'åsen',
 ]
-
-export default arrayToObject(paaSuffixes, Preposition.PÅ)
