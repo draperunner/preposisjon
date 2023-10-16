@@ -244,7 +244,6 @@ const paaExceptions = [
   'ulefoss',
   'ustaoset',
   'utsira',
-  'utstein',
   'varhaug',
   'vega',
   'vennesla',
@@ -275,6 +274,7 @@ const iExceptions = [
   'onsøy',
   'sandnes',
   'tønsberg',
+  'ulstein',
   'vikøy',
 ]
 
