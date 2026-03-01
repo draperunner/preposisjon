@@ -1,4 +1,5 @@
-import assert from 'assert'
+import { suite, test } from 'node:test'
+import assert from 'node:assert'
 import preposisjon from '../src/index'
 
 suite('preposisjon', function () {

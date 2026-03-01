@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "lint": "prettier src --check",
-    "test": "mocha -r ts-node/register tests/test.ts --ui tdd",
+    "test": "node --require ts-node/register --test tests/test.ts",
     "build": "rm -rf lib && tsc",
     "prepublish": "npm test && npm run build"
   },
@@ -29,12 +29,9 @@
     }
   },
   "devDependencies": {
-    "@types/mocha": "^10.0.10",
-    "@types/node": "^22.19.1",
-    "eslint": "^9.39.1",
+    "@types/node": "^22.19.13",
     "husky": "^9.1.7",
-    "mocha": "^11.7.5",
-    "prettier": "^3.6.2",
+    "prettier": "^3.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
